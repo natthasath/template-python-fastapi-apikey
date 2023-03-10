@@ -1,4 +1,4 @@
-# 🎉 Template Python FastAPI
+# 🎉 Template Python FastAPI API Key
 
 An API key is a unique identifier used to authenticate a user or application to access an API or web-based service. It is typically sent as a parameter or header in API requests and is used for simple authentication to access public APIs or services.
 

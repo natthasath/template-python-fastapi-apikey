@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "template-python-fastapi"
+name = "template-python-fastapi-apikey"
 version = "0.1.0"
 description = ""
 authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "template_python_fastapi"}]
+packages = [{include = "template_python_fastapi_apikey"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
