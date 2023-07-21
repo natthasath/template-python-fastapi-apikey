@@ -16,3 +16,5 @@ RUN poetry export -f requirements.txt --output requirements.txt --without-hashes
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 CMD ["python", "main.py"]
+
+HEALTHCHECK --interval=30s --timeout=10s CMD curl -f http://localhost:8000/docs || exit 1
